@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "game-of-life"
+version = "0.1.0"
+description = ""
+authors = ["k4m4 <nikolaskam@gmail.com>"]
+readme = "README.md"
+packages = [{include = "game_of_life"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
